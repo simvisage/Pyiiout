@@ -3,7 +3,7 @@ Created on 06.02.2017
 
 @author: Yingxiong
 A conjugate gradient solver for Ax=b, the matrix A is a stiffness matrix stored as a
-stack of the element stiffness matrix in such a way that A[i] returns the stiffness 
+stack of the element stiffness matrices in such a way that A[i] returns the stiffness 
 matrix of the i-th element.
 '''
 import numpy as np
