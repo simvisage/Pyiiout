@@ -1,5 +1,4 @@
 import numpy as np
-import pylab as p
 import sympy as sp
 from conjugate_gradient import cg
 from constraint import constraint
@@ -8,10 +7,10 @@ from constraint import constraint
 xi_ = sp.symbols('xi')
 N_i_xi = sp.Matrix([(1. - xi_) / 2.0, (1 + xi_) / 2.0, ], dtype=np.float_)
 dN_i_xi = sp.Matrix([- 1.0 / 2.0, 1.0 / 2.0, ], dtype=np.float_)
-# numerical integration points and weights
+# numerical integration points (IP) and weights
 xi_m = np.array([[-1], [1]])
 w_m = np.array([1, 1])
-
+# the values of the shape functions and their derivatives at the IPs
 N_mi = np.array([N_i_xi.subs(xi_, xi) for xi in xi_m], dtype=np.float_)
 dN_mei = np.array([[dN_i_xi.subs(xi_, xi)]for xi in xi_m], dtype=np.float_)
 

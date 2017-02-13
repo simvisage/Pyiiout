@@ -35,10 +35,11 @@ def cg(A, b, dof_map, x0=None, max_iter=10e5, toler=1e-5):
         q = m_v(A, d, dof_map)
         alpha = delta_new / np.dot(d, q)
         x0 += alpha * d
-
+        # use the exact residual every 50 interations to remove accumulated
+        # error
         if i % 50 == 0:
             r = b - m_v(A, x0, dof_map)
-        else:
+        else:  # otherwise use the fast recursive formula
             r -= alpha * q
 
         delta_old = delta_new.copy()
