@@ -12,4 +12,10 @@ The array-based implementation is fully vectorized and is well suited for parall
 ==========================================================================================================================================
 Installation
 ==========================================================================================================================================
-De
+Dependency:
+Python 2.7
+Numpy 1.10.4 or higher
+Matplotlib (for visualization of the result)
+
+There are two ways to install the dependencies:
+1. install Python (https://www.python.org/downloads/) and then install the required 
