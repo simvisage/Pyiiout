@@ -8,3 +8,8 @@ The primary intention is to demonstrate how to transform the mathematical formul
 Second issue demonstrated by the package is the stacked representation of the system matrix consisting of three dimensional array with the first index denoting the element number and the second two indices representing the degrees of freedom of an element. Simple, conjugate gradient solver of an equation system has been implemented utilizing the efficient numpy array based operators. 
 
 The array-based implementation is fully vectorized and is well suited for parallelization.
+
+==========================================================================================================================================
+Installation
+==========================================================================================================================================
+De
