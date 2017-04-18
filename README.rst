@@ -13,6 +13,7 @@ The array-based implementation is fully vectorized and is well suited for parall
 Installation
 ==========================================================================================================================================
 Dependency:
+
 Python 2.7
 
 Numpy 1.10.4 or higher
