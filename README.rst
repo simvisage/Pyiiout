@@ -19,11 +19,12 @@ Numpy 1.10.4 or higher
 
 Matplotlib (for visualization of the result)
 
-There are two ways to install the dependencies:
-1. install Python (https://www.python.org/downloads/) and then install the required packages.
+1.There are two ways to install the dependencies:
 
-2. use third party python distribuition such as the Canopy (https://www.enthought.com/products/canopy/) or Anaconda (https://www.continuum.io/downloads), all the required packages come with those distribuition.
+  a. install Python (https://www.python.org/downloads/) and then install the required packages.
 
-3. we recommand to use Canopy. To install Canopy, just download the right version of Canopy from (https://store.enthought.com/downloads/#default). 
+  b. use third party python distribuition such as the Canopy (https://www.enthought.com/products/canopy/) or Anaconda (https://www.continuum.io/downloads), all the required packages come with those distribuition.
 
-4. To test the code, first download the code as a zip file from (https://github.com/simvisage/Pyiiout/archive/master.zip), then unzip the file, and run the pyiiout.py script in the pyiiout folder.
+2. we recommand to use Canopy. To install Canopy, just download the right version of Canopy from (https://store.enthought.com/downloads/#default). 
+
+3. To test the code, first download the code as a zip file from (https://github.com/simvisage/Pyiiout/archive/master.zip), then unzip the file, and run the pyiiout.py script in the pyiiout folder.
